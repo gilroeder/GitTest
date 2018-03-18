@@ -39,7 +39,6 @@ while abs(min_rate - max_rate) > 1:
     elif current_savings > portion_down_payment + 100:
         max_rate = portion_saved
     elif abs(current_savings - portion_down_payment) < 100:
-            min_rate = max_rate
             found = True
             break
     
